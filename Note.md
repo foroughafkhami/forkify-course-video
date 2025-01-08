@@ -76,3 +76,4 @@ window.history.pushState(null, '', `#${model.state.recipe.id}`);
 1. git branch: show all branch
 2. git branch "name":create a brach
 3. git checkout "name": to move to that branch
+4. git merge "name"
