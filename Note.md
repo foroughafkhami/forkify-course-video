@@ -83,3 +83,6 @@ window.history.pushState(null, '', `#${model.state.recipe.id}`);
 - git push origin master
 - git push origin master: master is the name of the branch we want to push into git
 - github cheatsheet
+
+- to pull:
+  git pull "url"
