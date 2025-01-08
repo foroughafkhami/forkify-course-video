@@ -61,3 +61,18 @@ window.history.pushState(null, '', `#${model.state.recipe.id}`);
 
 - netlify: for front-end applications
 - surge
+
+## Git
+
+- go to previous commits:
+  git reset --hard HEAD
+- all commits:
+  1. git log
+  2. take the id
+  3. to quit write q
+  4. git reset --hard id
+- create new branch:
+
+1. git branch: show all branch
+2. git branch "name":create a brach
+3. git checkout "name": to move to that branch
