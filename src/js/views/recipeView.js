@@ -2,7 +2,7 @@ import View from './View.js';
 // import icons from '../img/icons.svg';// parcel 1
 // for not js file like images,vedios and .. we need to write url:
 import icons from 'url:../../img/icons.svg'; // parcel 2
-import { Fraction } from 'fractional';
+const { Fraction } = require('fractional');
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
 
